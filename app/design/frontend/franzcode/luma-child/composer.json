@@ -1,0 +1,26 @@
+{
+    "name": "franzcode/theme-frontend-luma-child",
+    "description": "Child Theme for Luma",
+    "authors": [
+        {
+            "name": "f.giliberti",
+            "email": "email@example.com"
+        }
+    ],
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.2.0|~7.3.0|~7.4.0",
+        "magento/luma": "100.0.*",
+        "magento/framework": "100.0.*"
+    },
+    "type": "magento2-theme",
+    "version": "100.0.1",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}

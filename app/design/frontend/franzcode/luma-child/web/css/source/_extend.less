@@ -1,0 +1,58 @@
+@dark_color_100: #000000;
+@dark_color_75: #333333;
+@dark_color_65: #3A3A3A;
+@dark_color_5: #CACACA;
+@white_color: #FFFFFF;
+@hover_color: #DD4A68;
+
+.page-header .panel.wrapper {
+    background-color: @dark_color_100;
+    color: @white_color;
+}
+
+.page-footer {
+    background: @dark_color_100;
+}
+
+.footer.content .links a {
+    color: @white_color;
+}
+
+.footer.content .links a:hover {
+    color: @hover_color;
+}
+
+.action.primary, .action-primary {
+    background: @white_color;
+    border: 1px solid @dark_color_5;
+    color: @dark_color_100;
+}
+
+.action.primary:hover, .action-primary:hover {
+    background: @hover_color;
+    border: 1px solid @hover_color;
+    color: @white_color;
+}
+
+//input[type="text"], input[type="password"],
+//input[type="url"], input[type="tel"],
+//input[type="search"], input[type="number"],
+//input[type*="date"],
+input[type="email"] {
+    background: @dark_color_65;
+    border: 1px solid @dark_color_5;
+
+}
+
+.block.newsletter .field .control:before {
+    color: @white_color;
+}
+
+#newsletter::-webkit-input-placeholder {
+    color: @white_color;
+}
+
+.copyright {
+    background-color: @dark_color_65;
+    color: @white_color;
+}
